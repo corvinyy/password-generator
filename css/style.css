@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* COLOR VARIABLES */
+:root {
+    --primary-color: #8b3fa3;
+    --secondary-color: #db8dbc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cascadia Code, monospace;
+}
+
+body {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(120deg, var(--primary-color), var(--secondary-color)); 
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
