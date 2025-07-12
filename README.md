@@ -1,6 +1,4 @@
-# Password Generator
-# Name: CvinyKey
-
+# Password Generator - CvinyKey
 A simple and responsive web-based password generator built with **HTML**, **CSS**, and **JavaScript**.
 
 This tool allows users to generate secure, random passwords with customizable options such as:
@@ -14,3 +12,6 @@ This tool allows users to generate secure, random passwords with customizable op
 - CSS
 - JAVASCRIPT
 
+### 🛠️ Status
+Work in progress! 
+functionality and style not yet implemented.
