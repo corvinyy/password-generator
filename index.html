@@ -32,29 +32,30 @@
         <div id="options">
             <div class="option">
                 <input type="number" id="length" min="4" max="64">
-                <label for="length">Length</label>
+                <label for="length" id="label-length">Length</label>
             </div>
             
-            <div class="option">
-                <input type="checkbox" id="uppercase" name="uppercase">
-                <label for="uppercase">Uppercase Letters</label>
-            </div>
+            <div id="options-checkboxes">
+                <div class="option">
+                    <input type="checkbox" id="uppercase" name="uppercase">
+                    <label for="uppercase" id="label-upcase">Uppercase Letters</label>
+                </div>
 
-            <div class="option">
-                <input type="checkbox" id="lowercase" name="lowercase">
-                <label for="lowercase">Lowercase Letters</label>
-            </div>
+                <div class="option">
+                    <input type="checkbox" id="lowercase" name="lowercase">
+                    <label for="lowercase" id="label-lowcase">Lowercase Letters</label>
+                </div>
 
-            <div class="option">
-                <input type="checkbox" id="numbers" name="numbers">
-                 <label for="numbers">Numbers</label>
-            </div>
+                <div class="option">
+                    <input type="checkbox" id="numbers" name="numbers">
+                    <label for="numbers" id="label-num">Numbers</label>
+                </div>
 
-            <div class="option">
-                <input type="checkbox" id="symbols" name="symbols">
-                <label for="symbols">Symbols</label>
+                <div class="option">
+                    <input type="checkbox" id="symbols" name="symbols">
+                    <label for="symbols" id="label-sym">Symbols</label>
+                </div>
             </div>
-
         </div>
 
         <!-- GENERATE BUTTON -->
@@ -64,5 +65,4 @@
         </button>
     </div>
 </body>
-
 </html>
