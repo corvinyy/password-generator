@@ -3,7 +3,8 @@
 /* COLOR VARIABLES */
 :root {
     --primary-color: #5f397c;
-    --secondary-color: #ba84c6;
+    --background-color: #bbabc0;
+    --background-color2: #50366d;
     --button-color: #412250;
     --border-color: rgb(201, 201, 201);
 }
@@ -22,7 +23,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-    background: linear-gradient(120deg, var(--primary-color), var(--secondary-color)); 
+    background: linear-gradient(120deg, var(--background-color), var(--background-color2)); 
 }
 
 /* CvinyKey text */
