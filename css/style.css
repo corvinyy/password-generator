@@ -2,8 +2,9 @@
 
 /* COLOR VARIABLES */
 :root {
-    --primary-color: #754897;
+    --primary-color: #5f397c;
     --secondary-color: #ba84c6;
+    --button-color: #412250;
     --border-color: rgb(201, 201, 201);
 }
 
@@ -35,9 +36,7 @@ body {
 }
 #title2 {
     color: var(--primary-color);
-    font-weight: 700;
-    margin-bottom: 1px;
-    font-size: 1.8srem;
+    font-size: 1.8rem;
 }
 
 /* Include the password input and options */
@@ -68,9 +67,8 @@ body {
 }
 
 #password {
-    width: 100%;
+    width: 80%;
     padding: 1.1rem;
-    padding-right: 50px;
     border: none;
     outline: none;
     font-size: 1.2rem;
@@ -78,7 +76,7 @@ body {
 }
 
 #copy-btn {
-    background-color: var(--primary-color);
+    background-color: var(--button-color);
     color: white;
     border: none;
     border-radius: 10px;
@@ -88,6 +86,12 @@ body {
     cursor: pointer;
 
 }
+#options-checkboxes {
+
+    flex-direction: column;
+    border-top: 3px solid var(--border-color);
+    
+}
 
 /* Options geral */
 #options {
@@ -95,27 +99,51 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 10px;
     background-color: white;
-    padding: 1.1rem;
-    padding-right: 50px;
+    padding: 3cap;
 }
 
-label {
-    display : inline-block;
+#length {
+    width: 16%;
+    color: var(--primary-color);
+    font-weight: 1000;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
+    padding: 0.3rem 0.1rem;
+    padding-left: 0.3rem;
+}   
+
+#label-length {
+    font-size: 2.5ch;
     color: var(--primary-color);
     font-weight: 700;
 }
 
-#length {
-    width: 20%;
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--button-color); 
+    transform: scale(1.2); 
+  }
+  
+#uppercase, #lowercase, 
+#numbers, #symbols {
+    width: 16%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    display : inline-block;
+    margin-bottom: 0.9rem;
+}
+
+#label-upcase, #label-lowcase,
+#label-num, #label-sym {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    font-weight: 700;
     color: var(--primary-color);
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-}   
+}
 
 #generate-btn {
-    background-color: var(--primary-color);
+    background-color: var(--button-color);
     color: white;
     border: none;
     border-radius: 10px;
