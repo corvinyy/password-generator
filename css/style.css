@@ -4,6 +4,7 @@
 :root {
     --primary-color: #754897;
     --secondary-color: #ba84c6;
+    --border-color: rgb(201, 201, 201);
 }
 
 * {
@@ -39,23 +40,25 @@ body {
     font-size: 1.8srem;
 }
 
+/* Include the password input and options */
 #container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px;
-    padding: 2.5rem;
+    gap: 20px;
+    padding: 2rem;
     border-radius: 1.5rem;
     background: rgb(255, 217, 247);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
 }
 
+/* Password input */
 #password-container {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: white;
     border-radius: 10px;
-    border: 1px solid rgb(221, 221, 221);
+    border: 1px solid var(--border-color);
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -73,5 +76,55 @@ body {
     font-size: 1.2rem;
     color: var(--primary-color);
 }
+
+#copy-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+/* Options geral */
+#options {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background-color: white;
+    padding: 1.1rem;
+    padding-right: 50px;
+}
+
+label {
+    display : inline-block;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+#length {
+    width: 20%;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}   
+
+#generate-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.50);
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
 
 
