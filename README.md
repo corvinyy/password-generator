@@ -2,6 +2,11 @@
 A customizable and responsive password generator.
 The project allows users to define password characteristics like length, letters, numbers, and symbols — and soon, it will support **clipboard copy**, **user login**, and **password history**.
 
+## 📸 Work-in-progress preview
+
+![Preview of the current progress](./assets/imgs/example.png)
+
+
 ## ✨ Features
 
 - ⚙️ Define password **length**
