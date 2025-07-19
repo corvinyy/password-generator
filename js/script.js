@@ -44,7 +44,22 @@ function getSize() {
     return sizeInput;
 }
 
+function generatePassword(sizeInput, charOptions) {
+    let genPassword = '';
+
+    while (genPassword.length < sizeInput) {
+        genPassword += validateInput(charOptions);
+
+    }
+
+    return genPassword;
+}
+
 // Event listener for the generate button
 document.querySelector('#generate-btn').addEventListener('click', function() {
-    console.log(validateInput(getSize()));
+    const sizeInput = getSize();
+    const charOptions = getCharTypes();
+    const genPassword = generatePassword(sizeInput, charOptions);
+
+    document.querySelector('#password').textContent = genPassword;
 });
