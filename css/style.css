@@ -32,7 +32,7 @@ body {
     font-size: 2rem;
     color: var(--primary-color);
 
-/* Password Generator ext */   
+/* Password Generator text */   
 }
 #title2 {
     font-size: 1.8rem;
@@ -67,6 +67,7 @@ body {
     background-color: white;
 }
 
+/* Password input field */
 #password {
     width: 80%;
     padding: 20px 20px;
@@ -79,6 +80,7 @@ body {
     color: var(--primary-color);
 }
 
+/* Copy button */
 #copy-btn {
     padding: 0.8rem 1rem;
     font-size: 1.2rem;
@@ -88,11 +90,11 @@ body {
     cursor: pointer;
     background-color: var(--button-color);
     color: white;
-
 }
-#options-checkboxes {
-    flex-direction: column;
-    border-top: 3px solid var(--border-color);
+
+/* Color change on hover */
+#copy-btn:hover {
+    background-color: var(--primary-color);
 }
 
 /* Options geral */
@@ -104,7 +106,13 @@ body {
     background-color: white;
 }
 
-/* Length number*/
+/* Options checkboxes */
+#options-checkboxes {
+    flex-direction: column;
+    border-top: 3px solid var(--border-color);
+}
+
+/* Length number */
 #length {
     width: 50px;
     padding: 0.3rem 0.1rem;
@@ -129,13 +137,14 @@ body {
 }
 
 
-/* Length text*/
+/* Length text */
 #label-length {
     font-weight: 700;
     font-size: 2.5ch;
     color: var(--primary-color);
 }
 
+/* Checkboxes */
 input[type="checkbox"] {
     width: 20px;
     height: 20px;
@@ -161,6 +170,7 @@ input[type="checkbox"] {
     color: var(--primary-color);
 }
 
+/* Generate button */
 #generate-btn {
     padding: 15px 20px;
     font-size: 1.2rem;
@@ -173,6 +183,9 @@ input[type="checkbox"] {
     color: white;
 }
 
-
+/* Color change on hover (Generate button)*/
+#generate-btn:hover {
+    background-color: var(--primary-color);
+}
 
 
