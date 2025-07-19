@@ -86,7 +86,13 @@ body {
     text-overflow: ellipsis;
     color: var(--primary-color);
     background-color: rgb(255, 255, 255);
+}
 
+/* Password input field on hover */
+#password:hover {
+    overflow: auto;
+    white-space: normal;
+    text-overflow: clip;
 }
 
 /* Copy button */
