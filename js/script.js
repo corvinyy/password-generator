@@ -38,12 +38,14 @@ function getSize() {
     const sizeInput = document.querySelector('#length').value;
 
     if (sizeInput < 4 || sizeInput > 64 || isNaN(sizeInput)) {
-        alert('Please enter a valid number between 4 and 64.');
+        message("Please enter a valid password length between 4 and 64.", "linear-gradient(to right, #d1414dff, #a11f08ff)");
+        return null;
     }
 
     return sizeInput;
 }
 
+// function to generate the password based on size and character options
 function generatePassword(sizeInput, charOptions) {
     let genPassword = '';
 
@@ -55,10 +57,29 @@ function generatePassword(sizeInput, charOptions) {
     return genPassword;
 }
 
+function message(text, background) {
+    Toastify({
+        text: text,
+        duration: 2000,
+        style: {
+            background: background,
+            boxShadow: "none"
+        }
+    }).showToast();
+}
+
 // Event listener for the generate button
 document.querySelector('#generate-btn').addEventListener('click', function() {
     const sizeInput = getSize();
+    if (!sizeInput) 
+        return;
+
     const charOptions = getCharTypes();
+
+    if (!charOptions.length) {
+        message("Please select at least one character type.", "linear-gradient(to right, #d1414dff, #a11f08ff)");
+        return null;
+    }
     const genPassword = generatePassword(sizeInput, charOptions);
 
     document.querySelector('#password').textContent = genPassword;
