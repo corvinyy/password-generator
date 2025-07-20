@@ -38,7 +38,7 @@ function getSize() {
     const sizeInput = document.querySelector('#length').value;
 
     if (sizeInput < 4 || sizeInput > 64 || isNaN(sizeInput)) {
-        message("Please enter a valid password length between 4 and 64.", "linear-gradient(to right, #d1414dff, #a11f08ff)");
+        message("Please enter a valid password length between 4 and 64.", "linear-gradient(to right, #3c2c47ff, #3d264bff)");
         return null;
     }
 
@@ -77,7 +77,7 @@ document.querySelector('#generate-btn').addEventListener('click', function() {
     const charOptions = getCharTypes();
 
     if (!charOptions.length) {
-        message("Please select at least one character type.", "linear-gradient(to right, #d1414dff, #a11f08ff)");
+        message("Please select at least one character type.", "linear-gradient(to right, #3c2c47ff, #3d264bff)");
         return null;
     }
     const genPassword = generatePassword(sizeInput, charOptions);
