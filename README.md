@@ -4,7 +4,7 @@ The project allows users to define password characteristics like length, letters
 
 ## 📸 Work-in-progress preview
 
-![Preview of the current progress](./assets/imgs/example.png?v=2)
+![Preview of the current progress](./assets/imgs/example.png?v=3)
 
 
 ## ✨ Features
@@ -93,7 +93,7 @@ The project allows users to define password characteristics like length, letters
 - ✅ Organize and centralize the layout with clean structure   
 - ✅ Build a modern and responsive UI using CSS
 - ✅ Implement customizable password settings (length, symbols, etc.)  
-- ⚙️ Add password generation logic  
+- ✅ Add password generation logic  
 - ⚙️ Clipboard copy function  
 - ✅ Mobile responsiveness
 - ⚙️ Add user authentication system *(planned)*  
@@ -103,4 +103,4 @@ The project allows users to define password characteristics like length, letters
 
 ---
 
-Made with ❤️ by Lorena Araujo (Corviny)
+Made with ❤️ 
