@@ -176,14 +176,13 @@ input[type="checkbox"] {
     width: 50px;
     margin-bottom: 0.9rem;
     margin-top: 1rem;
-    margin-right: 1rem;
     display : inline-block;
 }
 
 #label-upcase, #label-lowcase,
 #label-num, #label-sym {
-    margin-right: 1rem;
-    font-size: 1.3rem;
+    margin-right: 0rem;
+    font-size: 20px;
     font-weight: 700;
     color: var(--primary-color);
 }
