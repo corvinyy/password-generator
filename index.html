@@ -7,66 +7,67 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>CvinyKey</title>
+
 </head>
 
 <body>
-    <!---->
-    <!-- HEADER -->
-    <!--<div id="text">
-        <h1>Ensure your security: create random and secure passwords</h1>
-    </div>-->
-
-    <!-- TITLE -->
-    <div id="container">
-        <h1 id="title">CvinyKey</h1>
-        <h2 id="title2">Password Generator</h2>
-
-        <!-- PASSWORD CONTAINER -->
-        <div id="password-container">
-
-            <span id="password"></span>
-            <button id="copy-btn">
-                <i class="fa-solid fa-copy"></i>
-            </button>
+    <div id="wrapper">
+        <div id="text">
+            <h1>Ensure your security</h1>
+            <h2>Create strong, random passwords with ease</h2>
         </div>
-
-        <!-- PASSWORD OPTIONS -->
-        <div id="options">
-            <div class="option">
-                <input type="number" id="length" min="4" max="64">
-                <label for="length" id="label-length">Length</label>
-            </div>
+    
+        <div id="container">
             
-            <div id="options-checkboxes">
-                <div class="option">
-                    <input type="checkbox" id="uppercase" name="uppercase">
-                    <label for="uppercase" id="label-upcase">Uppercase Letters</label>
-                </div>
+            <!-- TITLE -->
+            <h1 id="title">CvinyKey</h1>
+            <h2 id="title2">Password Generator</h2>
 
-                <div class="option">
-                    <input type="checkbox" id="lowercase" name="lowercase">
-                    <label for="lowercase" id="label-lowcase">Lowercase Letters</label>
-                </div>
+            <!-- PASSWORD CONTAINER -->
+            <div id="password-container">
 
-                <div class="option">
-                    <input type="checkbox" id="numbers" name="numbers">
-                    <label for="numbers" id="label-num">Numbers</label>
-                </div>
+                <span id="password"></span>
+                <button id="copy-btn">
+                    <i class="fa-solid fa-copy"></i>
+                </button>
+            </div>
 
+            <!-- PASSWORD OPTIONS -->
+            <div id="options">
                 <div class="option">
-                    <input type="checkbox" id="symbols" name="symbols">
-                    <label for="symbols" id="label-sym">Symbols</label>
+                    <input type="number" id="length" min="4" max="64">
+                    <label for="length" id="label-length">Length</label>
+                </div>
+                
+                <div id="options-checkboxes">
+                    <div class="option">
+                        <input type="checkbox" id="uppercase" name="uppercase">
+                        <label for="uppercase" id="label-upcase">Uppercase Letters</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="checkbox" id="lowercase" name="lowercase">
+                        <label for="lowercase" id="label-lowcase">Lowercase Letters</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="checkbox" id="numbers" name="numbers">
+                        <label for="numbers" id="label-num">Numbers</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="checkbox" id="symbols" name="symbols">
+                        <label for="symbols" id="label-sym">Symbols</label>
+                    </div>
                 </div>
             </div>
+                <!-- GENERATE BUTTON -->
+                <button id="generate-btn">
+                    <i class="fa-solid fa-rotate"></i>
+                    Generate Password
+                </button>
         </div>
-
-        <!-- GENERATE BUTTON -->
-        <button id="generate-btn">
-            <i class="fa-solid fa-rotate"></i>
-            Generate Password
-        </button>
     </div>
-
     <script src="js/script.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
