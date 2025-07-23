@@ -4,7 +4,7 @@ The project allows users to define password characteristics like length, letters
 
 ## 📸 Work-in-progress preview
 
-![Preview of the current progress](./assets/imgs/example.png?v=3)
+![Preview of the current progress](./assets/imgs/example.png?v=4)
 
 
 ## ✨ Features
