@@ -84,3 +84,9 @@ document.querySelector('#generate-btn').addEventListener('click', function() {
 
     document.querySelector('#password').textContent = genPassword;
 });
+
+// Event listener for the copy button
+document.querySelector('#copy-btn').addEventListener('click', function() {
+    navigator.clipboard.writeText(document.querySelector('#password').textContent);
+    message("Password copied to clipboard!", "linear-gradient(to right, #3c2c47ff, #3d264bff)");
+});
