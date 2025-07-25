@@ -13,7 +13,7 @@ The project allows users to define password characteristics like length, letters
 - ⚙️ Include **uppercase** and/or **lowercase** letters
 - ⚙️ Include **numbers**
 - ⚙️ Include **symbols**
-- 🛠️ Copy to clipboard functionality *(coming soon)*
+- 🛠️ Copy to clipboard functionality 
 - 🌙 Dark mode *(coming soon)*
 - 🧩 User authentication system *(coming soon)*
 - 🧩 Save previously generated passwords per user *(coming soon)*
@@ -94,7 +94,7 @@ The project allows users to define password characteristics like length, letters
 - ✅ Build a modern and responsive UI using CSS
 - ✅ Implement customizable password settings (length, symbols, etc.)  
 - ✅ Add password generation logic  
-- ⚙️ Clipboard copy function  
+- ✅ Clipboard copy function  
 - ✅ Mobile responsiveness
 - ⚙️ Add user authentication system *(planned)*  
 - ⚙️ Store generated/copied passwords per user *(planned)*  
